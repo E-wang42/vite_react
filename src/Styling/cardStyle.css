@@ -11,6 +11,10 @@
   padding-bottom: 2rem;
 }
 
+.container--card:last-child {
+  border: none;
+}
+
 .container--location {
   display: flex;
   justify-content: start;
