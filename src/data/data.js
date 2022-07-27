@@ -1,7 +1,8 @@
 export default [
   {
+    id: 1,
     title: "Mount Fuji",
-    location: "Japan",
+    location: "JAPAN",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
     startDate: "12 Jan, 2021",
     endDate: "24 Jan, 2021",
@@ -10,8 +11,9 @@ export default [
     imageUrl: "https://source.unsplash.com/WLxQvbMyfas",
   },
   {
+    id: 2,
     title: "Syndney Opera House",
-    location: "Australia",
+    location: "AUSTRALIA",
     googleMapsUrl: "https://goo.gl/maps/xt3kpuzdaJmNE4yp6",
     startDate: "27 May, 2021",
     endDate: "08 Jun, 2021",
@@ -20,8 +22,9 @@ export default [
     imageUrl: "https://source.unsplash.com/JmuyB_LibRo",
   },
   {
+    id: 3,
     title: "Geirangerfjord",
-    location: "Norway",
+    location: "NORWAY",
     googleMapsUrl: "https://goo.gl/maps/SZg8F12Tb76bnsSn7",
     startDate: "01 Oct, 2021",
     endDate: "18 Nov, 2021",

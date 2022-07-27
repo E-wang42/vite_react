@@ -1,0 +1,49 @@
+.container--card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+  max-width: 710px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  box-shadow: 1 1 1 1rem black;
+}
+
+.container--location {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.container--data {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.2rem;
+}
+
+svg {
+  width: 1rem;
+  color: orangered;
+}
+
+#placeImg {
+  width: 14rem;
+  height: 20rem;
+  border-radius: 0.8rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+h5 {
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+a {
+  color: rgba(128, 128, 128, 0.89);
+  font-size: smaller;
+}
