@@ -7,7 +7,8 @@
   position: relative;
   margin: 0 auto;
   margin-bottom: 2rem;
-  box-shadow: 1 1 1 1rem black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+  padding-bottom: 2rem;
 }
 
 .container--location {
@@ -21,8 +22,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  gap: 1.2rem;
+  justify-content: space-around;
+  gap: 2.5rem;
 }
 
 svg {
@@ -31,8 +32,8 @@ svg {
 }
 
 #placeImg {
-  width: 14rem;
-  height: 20rem;
+  width: 13rem;
+  height: 18rem;
   border-radius: 0.8rem;
   object-fit: cover;
   object-position: center;
@@ -46,4 +47,16 @@ h5 {
 a {
   color: rgba(128, 128, 128, 0.89);
   font-size: smaller;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: xx-large;
+  letter-spacing: 0.05rem;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0.6rem;
 }
