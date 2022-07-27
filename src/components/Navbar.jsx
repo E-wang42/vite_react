@@ -4,7 +4,11 @@ import "../Styling/navStyle.css";
 export default function Navbar() {
   return (
     <nav>
-      <img src="src\assets\Images\book.png" alt="img" className="nav--logo" />
+      <img
+        src="https://i.ibb.co/zFGMxdW/book.png"
+        alt="img"
+        className="nav--logo"
+      />
       <h1>My Travel Journal</h1>
     </nav>
   );
